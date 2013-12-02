@@ -73,9 +73,6 @@
     <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">true</bool>
 
-    <!-- Workaround for devices with broken keyboards -->
-    <bool name="config_forceDisableHardwareKeyboard">true</bool>
-
     <!-- Indicate whether the SD card is accessible without removing the battery. -->
     <bool name="config_batterySdCardAccessibility">true</bool>
 
@@ -138,8 +135,6 @@
         <item>0</item>
         <item>0</item>
     </integer-array>
-
-    <integer name="config_buttonBrightnessSettingDefault">0</integer>
 
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
