@@ -130,8 +130,7 @@ PRODUCT_PACKAGES += \
 
 # Scripts
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/scripts/mount_pds.sh:system/bin/mount_pds.sh \
-    $(LOCAL_PATH)/scripts/qcamerasrvwrapper.sh:system/bin/qcamerasrvwrapper.sh
+    $(LOCAL_PATH)/scripts/mount_pds.sh:system/bin/mount_pds.sh
 
 # GPS configuration
 PRODUCT_COPY_FILES += \
