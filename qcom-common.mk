@@ -66,9 +66,6 @@ PRODUCT_PACKAGES += \
     tcpdump \
     Torch
 
-# Charger
-PRODUCT_PACKAGES += charger charger_res_images
-
 # QRNGD
 PRODUCT_PACKAGES += qrngd
 
